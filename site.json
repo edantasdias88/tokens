@@ -1780,7 +1780,6 @@
       "desktop": {
         "container": {
           "value": {
-            "borderWidthBottom": "{borderWidth.1}",
             "verticalPadding": "{spacing.0}",
             "paddingLeft": "{spacing.0}",
             "paddingRight": "{spacing.5}"
@@ -1991,12 +1990,6 @@
             },
             "icon": {
               "value": "{light.global.background.secondary}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "head": {
-              "value": "{light.global.border.primary}",
               "type": "color"
             }
           }
