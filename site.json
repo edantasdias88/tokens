@@ -1324,7 +1324,7 @@
             "type": "color"
           },
           "newStory": {
-            "value": "{color.brand.gradient.100}",
+            "value": "{color.brand.gradient.400}",
             "type": "color"
           },
           "live": {
