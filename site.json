@@ -1952,12 +1952,6 @@
             "type": "color"
           }
         },
-        "border": {
-          "container": {
-            "value": "{color.neutral.50}",
-            "type": "color"
-          }
-        },
         "dropdown": {
           "text": {
             "default": {
@@ -1990,6 +1984,12 @@
             },
             "icon": {
               "value": "{light.global.background.secondary}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "divider": {
+              "value": "{color.neutral.25}",
               "type": "color"
             }
           }
