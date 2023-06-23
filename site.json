@@ -2141,6 +2141,116 @@
       }
     }
   },
+  "component/navigation": {
+    "navigation": {
+      "desktop": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}"
+          },
+          "type": "composition"
+        },
+        "item": {
+          "value": {
+            "itemSpacing": "{spacing.4}",
+            "borderWidthBottom": "{borderWidth.2}",
+            "paddingTop": "{spacing.0}",
+            "paddingBottom": "{spacing.5}",
+            "horizontalPadding": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "itemLabel": {
+          "value": {
+            "itemSpacing": "{spacing.0}",
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.3}"
+          },
+          "type": "composition"
+        },
+        "itemIcon": {
+          "value": {
+            "height": "{dimension.5}+{dimension.2}",
+            "width": "{dimension.5}+{dimension.2}"
+          },
+          "type": "composition"
+        }
+      },
+      "mobile": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}",
+            "horizontalPadding": "{spacing.5}",
+            "verticalPadding": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "item": {
+          "value": {
+            "itemSpacing": "{spacing.4}",
+            "borderWidthBottom": "{borderWidth.2}",
+            "paddingTop": "{spacing.4}",
+            "paddingBottom": "{spacing.6}",
+            "horizontalPadding": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "itemLabel": {
+          "value": {
+            "itemSpacing": "{spacing.0}",
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "itemIcon": {
+          "value": {
+            "height": "{dimension.5}+{dimension.2}",
+            "width": "{dimension.5}+{dimension.2}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "light": {
+      "navigation": {
+        "text": {
+          "default": {
+            "value": "{light.global.text.tertiary}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.brand.primary.500}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{light.navigation.text.hover}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "rgba({light.navigation.text.default}, {opacity.0})",
+            "type": "color"
+          },
+          "hover": {
+            "value": "rgba({light.navigation.text.hover}, {opacity.0})",
+            "type": "color"
+          },
+          "hover-copy": {
+            "value": "{light.navigation.text.active}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "container": {
+            "value": "{light.header.background.container}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "component/sidebar": {
     "sidebar": {
       "desktop": {
@@ -2916,6 +3026,7 @@
       "component/button",
       "component/header",
       "component/input",
+      "component/navigation",
       "component/sidebar",
       "component/typography"
     ]
