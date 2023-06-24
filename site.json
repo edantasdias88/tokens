@@ -2184,13 +2184,6 @@
             },
             "type": "composition"
           },
-          "divider": {
-            "value": {
-              "verticalPadding": "{spacing.5}",
-              "horizontalPadding": "{spacing.0}"
-            },
-            "type": "composition"
-          },
           "links": {
             "container": {
               "value": {
@@ -2299,7 +2292,10 @@
           "container": {
             "value": {
               "itemSpacing": "{spacing.0}",
-              "borderRadius": "{borderRadius.3}"
+              "borderRadius": "{borderRadius.3}",
+              "paddingTop": "{spacing.9}",
+              "paddingBottom": "{spacing.0}",
+              "horizontalPadding": "{spacing.0}"
             },
             "type": "composition"
           },
@@ -2317,13 +2313,6 @@
               "horizontalPadding": "{spacing.0}",
               "paddingTop": "{spacing.2}",
               "paddingBottom": "{spacing.4}"
-            },
-            "type": "composition"
-          },
-          "divider": {
-            "value": {
-              "verticalPadding": "{spacing.5}",
-              "horizontalPadding": "{spacing.0}"
             },
             "type": "composition"
           },
