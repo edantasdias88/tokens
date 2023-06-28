@@ -2550,7 +2550,7 @@
         "base": {
           "value": {
             "itemSpacing": "{spacing.3}",
-            "verticalPadding": "{spacing.4}",
+            "verticalPadding": "{spacing.3}",
             "horizontalPadding": "{spacing.3}",
             "borderWidth": "{borderWidth.1}",
             "borderRadius": "{borderRadius.3}"
