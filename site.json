@@ -2202,6 +2202,54 @@
     }
   },
   "component/card": {
+    "dark": {
+      "property-card": {
+        "text": {
+          "primary": {
+            "value": "{dark.global.text.primary}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{dark.global.text.secondary}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{dark.global.background.tertiary}",
+            "type": "color"
+          },
+          "degrade": {
+            "value": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "light": {
+      "property-card": {
+        "text": {
+          "primary": {
+            "value": "{light.global.text.primary}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{light.global.text.secondary}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{color.base.white}",
+            "type": "color"
+          },
+          "degrade": {
+            "value": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);",
+            "type": "color"
+          }
+        }
+      }
+    },
     "propertyCard": {
       "container": {
         "value": {
@@ -2236,26 +2284,6 @@
           "width": "{sizing.6}"
         },
         "type": "composition"
-      }
-    },
-    "light": {
-      "property-card": {
-        "text": {
-          "primary": {
-            "value": "{light.global.text.primary}",
-            "type": "color"
-          },
-          "secondary": {
-            "value": "{light.global.text.secondary}",
-            "type": "color"
-          }
-        },
-        "background": {
-          "default": {
-            "value": "{color.base.white}",
-            "type": "color"
-          }
-        }
       }
     }
   },
