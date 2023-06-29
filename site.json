@@ -2553,7 +2553,7 @@
       "header": {
         "text": {
           "default": {
-            "value": "{light.global.text.tertiary}",
+            "value": "{light.global.text.primary}",
             "type": "color"
           }
         },
@@ -2837,7 +2837,7 @@
       "navigation": {
         "text": {
           "default": {
-            "value": "{light.global.text.tertiary}",
+            "value": "{light.global.text.primary}",
             "type": "color"
           },
           "hover": {
