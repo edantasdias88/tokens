@@ -2996,11 +2996,11 @@
       "sidebar": {
         "text": {
           "default": {
-            "value": "{dark.global.text.secondary}",
+            "value": "{dark.global.text.primary}",
             "type": "color"
           },
           "subItems": {
-            "value": "{dark.global.text.tertiary}",
+            "value": "{dark.global.text.secondary}",
             "type": "color"
           },
           "user": {
@@ -3010,11 +3010,11 @@
         },
         "background": {
           "items": {
-            "value": "{dark.global.background.primary}",
+            "value": "{dark.global.background.tertiary}",
             "type": "color"
           },
           "boxItem": {
-            "value": "{dark.global.background.primary}",
+            "value": "{dark.global.background.tertiary}",
             "type": "color"
           },
           "cover": {
@@ -3022,7 +3022,7 @@
             "type": "color"
           },
           "mobile": {
-            "value": "{color.base.white}",
+            "value": "{dark.sidebar.background.boxItem}",
             "type": "color"
           }
         }
