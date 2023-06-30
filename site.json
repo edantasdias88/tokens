@@ -2992,6 +2992,78 @@
     }
   },
   "component/sidebar": {
+    "dark": {
+      "sidebar": {
+        "text": {
+          "default": {
+            "value": "{dark.global.text.secondary}",
+            "type": "color"
+          },
+          "subItems": {
+            "value": "{dark.global.text.tertiary}",
+            "type": "color"
+          },
+          "user": {
+            "value": "{color.base.white}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "items": {
+            "value": "{dark.global.background.primary}",
+            "type": "color"
+          },
+          "boxItem": {
+            "value": "{dark.global.background.primary}",
+            "type": "color"
+          },
+          "cover": {
+            "value": "{color.brand.gradient.100}",
+            "type": "color"
+          },
+          "mobile": {
+            "value": "{color.base.white}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "light": {
+      "sidebar": {
+        "text": {
+          "default": {
+            "value": "{light.global.text.secondary}",
+            "type": "color"
+          },
+          "subItems": {
+            "value": "{light.global.text.tertiary}",
+            "type": "color"
+          },
+          "user": {
+            "value": "{color.base.white}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "items": {
+            "value": "{light.global.background.primary}",
+            "type": "color"
+          },
+          "boxItem": {
+            "value": "{light.global.background.primary}",
+            "type": "color"
+          },
+          "cover": {
+            "value": "{color.brand.gradient.100}",
+            "type": "color"
+          },
+          "mobile": {
+            "value": "{color.base.white}",
+            "type": "color"
+          }
+        }
+      }
+    },
     "sidebar": {
       "desktop": {
         "container": {
@@ -3154,42 +3226,6 @@
               "itemSpacing": "{spacing.3}"
             },
             "type": "composition"
-          }
-        }
-      }
-    },
-    "light": {
-      "sidebar": {
-        "background": {
-          "items": {
-            "value": "{light.global.background.primary}",
-            "type": "color"
-          },
-          "boxItem": {
-            "value": "{light.global.background.primary}",
-            "type": "color"
-          },
-          "cover": {
-            "value": "{color.brand.gradient.100}",
-            "type": "color"
-          },
-          "mobile": {
-            "value": "{color.base.white}",
-            "type": "color"
-          }
-        },
-        "text": {
-          "default": {
-            "value": "{light.global.text.secondary}",
-            "type": "color"
-          },
-          "subItems": {
-            "value": "{light.global.text.tertiary}",
-            "type": "color"
-          },
-          "user": {
-            "value": "{color.base.white}",
-            "type": "color"
           }
         }
       }
