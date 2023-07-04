@@ -1359,10 +1359,6 @@
             "value": "{color.success.300}",
             "type": "color"
           },
-          "statusOffline": {
-            "value": "{color.neutral.200}",
-            "type": "color"
-          },
           "statusBusy": {
             "value": "{color.error.400}",
             "type": "color"
@@ -1419,10 +1415,6 @@
           },
           "statusOnline": {
             "value": "{color.success.300}",
-            "type": "color"
-          },
-          "statusOffline": {
-            "value": "{color.neutral.200}",
             "type": "color"
           },
           "statusBusy": {
