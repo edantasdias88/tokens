@@ -1179,18 +1179,6 @@
             "value": "{color.neutral.25}",
             "type": "color"
           }
-        },
-        "iconReactions": {
-          "verified": {
-            "icon": {
-              "value": "{color.base.white}",
-              "type": "color"
-            },
-            "background": {
-              "value": "{color.brand.primary.500}",
-              "type": "color"
-            }
-          }
         }
       },
       "shadow": {
