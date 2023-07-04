@@ -360,6 +360,52 @@
             "type": "color"
           }
         }
+      },
+      "icons": {
+        "icon": {
+          "verified": {
+            "value": "{color.base.white}",
+            "type": "color"
+          },
+          "like": {
+            "value": "{color.base.white}",
+            "type": "color"
+          },
+          "love": {
+            "value": "{color.base.white}",
+            "type": "color"
+          },
+          "wow": {
+            "value": "{color.neutral.900}",
+            "type": "color"
+          },
+          "congratulations": {
+            "value": "{color.base.white}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "verified": {
+            "value": "{color.error.400}",
+            "type": "color"
+          },
+          "like": {
+            "value": "{color.information.500}",
+            "type": "color"
+          },
+          "love": {
+            "value": "{color.error.400}",
+            "type": "color"
+          },
+          "wow": {
+            "value": "{color.warning.100}",
+            "type": "color"
+          },
+          "congratulations": {
+            "value": "{color.success.300}",
+            "type": "color"
+          }
+        }
       }
     },
     "fontfamily": {
@@ -1132,6 +1178,18 @@
           "tertiary": {
             "value": "{color.neutral.25}",
             "type": "color"
+          }
+        },
+        "iconReactions": {
+          "verified": {
+            "icon": {
+              "value": "{color.base.white}",
+              "type": "color"
+            },
+            "background": {
+              "value": "{color.brand.primary.500}",
+              "type": "color"
+            }
           }
         }
       },
@@ -2336,7 +2394,7 @@
           },
           "background": {
             "container": {
-              "value": "{dark.global.background.primary}",
+              "value": "{dark.global.background.tertiary}",
               "type": "color"
             },
             "icon": {
@@ -2346,7 +2404,7 @@
           },
           "border": {
             "divider": {
-              "value": "{color.neutral.25}",
+              "value": "{color.neutral.700}",
               "type": "color"
             }
           }
