@@ -2848,7 +2848,7 @@
   "component/link": {
     "link": {
       "value": {
-        "itemSpacing": "{spacing.2}"
+        "itemSpacing": "{spacing.1}"
       },
       "type": "composition"
     }
