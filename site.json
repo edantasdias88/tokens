@@ -2588,8 +2588,7 @@
         "container": {
           "value": {
             "verticalPadding": "{spacing.0}",
-            "paddingLeft": "{spacing.0}",
-            "paddingRight": "{spacing.5}"
+            "horizontalPadding": "{spacing.5}"
           },
           "type": "composition"
         },
