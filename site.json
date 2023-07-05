@@ -3346,8 +3346,8 @@
         "cover": {
           "background": {
             "value": {
-              "height": "160px",
-              "width": "290px"
+              "height": "{sizing.16}",
+              "width": "{sizing.19}+{sizing.19}"
             },
             "type": "composition"
           },
