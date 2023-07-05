@@ -2324,6 +2324,104 @@
       }
     }
   },
+  "component/footer": {
+    "light": {
+      "footer": {
+        "text": {
+          "default": {
+            "value": "{light.global.text.primary}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{color.base.white}",
+            "type": "color"
+          }
+        },
+        "copyright": {
+          "text": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{color.base.black}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "footer": {
+      "desktop": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.7}",
+            "horizontalPadding": "{spacing.0}",
+            "paddingTop": "{spacing.13}",
+            "paddingBottom": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "column": {
+          "value": {
+            "itemSpacing": "{spacing.6}"
+          },
+          "type": "composition"
+        },
+        "copyright": {
+          "container": {
+            "value": {
+              "verticalPadding": "{spacing.4}",
+              "horizontalPadding": "{spacing.0}"
+            },
+            "type": "composition"
+          },
+          "content": {
+            "value": {
+              "itemSpacing": "{spacing.5}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "mobile": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.7}",
+            "horizontalPadding": "{spacing.0}",
+            "paddingTop": "{spacing.13}",
+            "paddingBottom": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "column": {
+          "value": {
+            "itemSpacing": "{spacing.6}"
+          },
+          "type": "composition"
+        },
+        "copyright": {
+          "container": {
+            "value": {
+              "verticalPadding": "{spacing.4}",
+              "horizontalPadding": "{spacing.0}"
+            },
+            "type": "composition"
+          },
+          "content": {
+            "value": {
+              "itemSpacing": "{spacing.5}"
+            },
+            "type": "composition"
+          }
+        }
+      }
+    }
+  },
   "component/header": {
     "dark": {
       "header": {
@@ -4000,6 +4098,7 @@
       "component/avatar",
       "component/blog",
       "component/button",
+      "component/footer",
       "component/header",
       "component/link",
       "component/input",
