@@ -3286,16 +3286,16 @@
         },
         "items": {
           "value": {
-            "itemSpacing": "{spacing.5}"
+            "itemSpacing": "{spacing.5}",
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.4}"
           },
           "type": "composition"
         },
         "item": {
           "value": {
             "itemSpacing": "{spacing.0}",
-            "height": "initial",
-            "verticalPadding": "{spacing.0}",
-            "horizontalPadding": "{spacing.4}"
+            "height": "initial"
           },
           "type": "composition"
         },
