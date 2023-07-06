@@ -2772,6 +2772,13 @@
             },
             "type": "composition"
           },
+          "back": {
+            "value": {
+              "horizontalPadding": "{spacing.4}",
+              "verticalPadding": "{spacing.6}"
+            },
+            "type": "composition"
+          },
           "head": {
             "value": {
               "itemSpacing": "{spacing.3}",
