@@ -1010,6 +1010,10 @@
           "tertiary": {
             "value": "{color.neutral.900}",
             "type": "color"
+          },
+          "overlay": {
+            "value": "rgba( {color.base.black} ,{opacity.80})",
+            "type": "color"
           }
         }
       },
@@ -1177,6 +1181,10 @@
           },
           "tertiary": {
             "value": "{color.neutral.25}",
+            "type": "color"
+          },
+          "oerlay": {
+            "value": "rgba( {color.base.black} ,{opacity.80})",
             "type": "color"
           }
         }
